@@ -676,13 +676,46 @@
 // console.log(cars.toString())
 
 
-let PakistaniYoutubers=["DuckyBhai","MrJayPlays","Talha Anjum","Talha Yunus"];
-let IndianYoutubers=["Carry","Bhuvan","BYouNick"];
-let YoutubeChannel=["TSeries","UrduPoint","P4Pako"]
-let Youtubers=PakistaniYoutubers.concat(IndianYoutubers , YoutubeChannel);
 
-console.log(Youtubers)
-for(let i=0; i<5;i++){
-    document.write("*")
-        
+// let PakistaniYoutubers=["DuckyBhai","MrJayPlays","Talha Anjum","Talha Yunus"];
+// let IndianYoutubers=["Carry","Bhuvan","BYouNick"];
+// let YoutubeChannel=["TSeries","UrduPoint","P4Pako"]
+// let Youtubers=PakistaniYoutubers.concat(IndianYoutubers , YoutubeChannel);
+
+// console.log(Youtubers);
+// let cities=["Karachi","Lahore","Hyderabad","Islamabad"];
+// for (let city of cities){
+//     console.log(city.toLocaleUpperCase())
+// }
+//Loop Sum
+// let MarksStudent=[54,47,76,32,97,98];
+// let sum =0;
+// for (let Value1 of MarksStudent){
+//        let total= sum +=Value1    
+//     }
+//     console.log(sum)
+//     let avgMarks = sum/MarksStudent.length;
+//     console.log(avgMarks)
+//Practice Question
+// let MarksStudent=[32,65,76,87,99,53];
+// let sum =0;
+// for (Value1 of MarksStudent){
+//     sum += Value1;
+// }
+// console.log(sum);
+// let AvgMarks=sum/MarksStudent.length;
+// console.log(AvgMarks)
+//Example Or Practice Question
+let item =[250,640,300,800,70];
+//For Loop
+for (let val1 of item)
+{
+
+    var discount = val1/10
+    //Assign New Value To Variable
+    var NewVlaue=val1;
+    //Dis Minus From Item Value1 
+    let disPrice=NewVlaue-=discount
+    //Print Value 
+    console.log(val1,"10 Per Dis",discount,"After Dis Price",disPrice)
 }

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <button onclick="program()">Start The Program</button>
+    </div>
+    <script>
+        function program(){
+            var per1=20;
+            var per2=25;
+
+            var condition1=prompt("Enter Your Work Exp");
+            if(condition1<5){
+                var condition2=prompt("Enter Your Salary");
+                var afterbonous=condition2*20/100
+                console.log("You Get Bonous Of " + per1 +"% of "+ "Your Salary IS "+ condition2+" And Your Bonous Is "+afterbonous)
+                alert("You Get Bonous Of " + per1 +"% of "+ "Your Salary IS "+ condition2+" And Your Bonous Is "+afterbonous)
+            }
+            else if(condition1>5){
+                console.log("ho gaya")
+                var condition2=prompt("Enter Your Salary");
+                var afterbonous=condition2*25/100
+                console.log("You Get Bonous Of " + per2 +"% of "+ "Your Salary IS "+ condition2+" And Your Bonous Is "+afterbonous)
+                alert("You Get Bonous Of " + per2 +"% of "+ "Your Salary IS "+ condition2+" And Your Bonous Is "+afterbonous)              
+            }
+            
+            
+        }
+    </script>
+</body>
+</html>
